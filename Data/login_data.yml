@@ -1,0 +1,29 @@
+test_login_001:
+  username: "17621979923"
+  password: "wangtt123"
+  expect_message: "我的优惠券"
+  tag: 1
+test_login_003:
+  username: "13488834010 "
+  password: "159357li"
+  expect_message: "我的优惠券"
+  tag: 1
+test_login_004:
+  username: " 13488134010"
+  password: "159357li"
+  expect_message: "我的优惠券"
+  tag: 1
+
+test_login_014:
+  username: "13488834010"
+  password: "159357"
+  toast_ms: "错误"
+  expect_message: "登录密码错误1"
+#
+test_login_015:
+  username: "13377779999"
+  password: "159357"
+  toast_ms: "不存在"
+  expect_message: "此用户不存在"
+
+
